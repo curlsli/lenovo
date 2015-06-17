@@ -1,3 +1,3 @@
 document.onclick = function () {
-	console.log(77);
+	console.log(88);
 }
