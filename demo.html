@@ -5,6 +5,61 @@
 	<title>Document</title>
 </head>
 <body>
-<div id="div1">77</div>
+<style>
+	div, ul, li { margin:0; padding: 0 }
+	ul { list-style: none; }
+	ul { position: relative; width: 200px; margin: 50px auto; border:1px solid #000; -webkit-transform-style: preserve-3d; -webkit-perspective: 800px; }
+	li { height: 30px; line-height: 30px; text-align: center; background-color: #ccc; margin: 10px 0; /* -webkit-transform: rotateY(120deg) */; -webkit-transform-origin: top; -webkit-transition: 1s; }
+</style>
+<div id="box">
+	<ul id="ul1">
+		<li>AAAA</li>
+		<li>BBBB</li>
+		<li>CCCC</li>
+		<li>DDDD</li>
+		<li>EEEEE</li>
+	</ul>
+</div>
+<script>
+	var oBox = document.getElementById('box'),
+		oUl = document.getElementById('ul1'),
+		aLi = oUl.getElementsByTagName('li');
+
+	for( var i = 0; i < aLi.length; i++ ){
+		aLi[i].index = i;
+		aLi[i].onclick = fnClick;
+	}
+
+	function fnClick(e){
+
+		var x = e.clientX - getX(this);
+		var iDeg = 0;
+		if( x > this.offsetWidth/2 ){
+			iDeg = '180';
+		}else{
+			iDeg = '-180';
+		}
+		/*this.style.WebkitTransform = 'rotateY(' + iDeg + 'deg)';*/
+		for( var i = 0; i < aLi.length; i++ ){
+
+			aLi[i].style.WebkitTransition = '0.6s ' + Math.abs(i - this.index)*100 + 'ms  cubic-bezier(0.240, -0.555, 0.615, 1.485)';
+
+			aLi[i].style.WebkitTransform = 'rotateY(' + iDeg + 'deg)';
+			aLi[i].style.opacity = 0.2;
+		}
+
+	}
+
+	function getX( obj ){
+		var left = 0;
+		while( obj ){
+			left += obj.offsetLeft;
+			obj = obj.offsetParent;
+		}
+		return left
+	}
+
+</script>
+
 </body>
 </html>
