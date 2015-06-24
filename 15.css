@@ -1,0 +1,394 @@
+a,
+button {
+    cursor:pointer
+}
+a,
+a:active {
+    outline:0;-webkit-tap-highlight-color:transparent
+}.clear:after,
+article,
+footer,
+header,
+nav {
+    display:block
+}.wrap,
+body,
+html {
+    position:absolute
+}
+body,
+html {
+    user-select:none;-webkit-text-size-adjust:none
+}
+a,
+body,
+html {-webkit-user-select:none
+}
+article,
+blockquote,
+body,
+dd,
+div,
+dl,
+dt,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+input,
+li,
+nav,
+ol,
+p,
+pre,
+section,
+td,
+textarea,
+th,
+ul {
+    margin:0;
+    padding:0
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0
+}
+img {
+    border:0;
+    vertical-align:top
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-style:normal;
+    font-weight:400
+}
+ol,
+ul {
+    list-style:none
+}
+caption,
+th {
+    text-align:left
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size:100% ;
+    font-weight:400
+}
+body {
+    font:16px/1.5 "Helvetica Neue",
+    Helvetica,
+    STHeiTi,
+    sans-serif;
+    overflow-x:hidden
+}
+button,
+input,
+select,
+textarea {
+    outline:0;
+    resize:none
+}
+button {
+    line-height:1.231;
+    white-space:nowrap;
+    vertical-align:middle
+}
+a,
+img {-webkit-touch-callout:none
+}
+a {
+    text-decoration:none;
+    color:#4CBDCD;-webkit-focus-ring-color:transparent
+}
+a:active {
+    text-decoration:underline
+}.clear:after {
+    content:'.';
+    clear:both;
+    height:0;
+    visibility:hidden;
+    line-height:0
+}#animalchanger,
+body,
+html {
+    overflow:hidden;
+    height:100% ;
+    width:100%
+}.countDay,
+.lowPhone.light,
+.lowPhone.loadingPgae.shard-wrap {
+    display:none
+}
+body,
+html {
+    top:0;
+    left:0;
+    color:#FFF;
+    line-height:1.1em;-webkit-font-smoothing:antialiased;
+    text-transform:uppercase
+}.wrap {
+    width:99% ;
+    left:50% ;
+    top:50%
+}.animal-mover,
+.level-one,
+.level-two,
+.shard,
+.shard-wrap {
+    position:absolute;
+    width:100% ;
+    height:100%
+}.level-one {
+    top:0;
+    left:0;
+    z-index:3
+}.shard-wrap {
+    z-index:2
+}#animalchanger.bear.wrap.shadow {
+    left:30.3% ;
+    width:35% ;
+    bottom:12.6% ;
+    height:5%
+}#animalchanger.bear.wrap.shadow::before {
+    left:57% ;
+    bottom:-7% ;
+    width:50% ;
+    height:49%
+}#animalchanger.bear.wrap.shadow::after {
+    left:25% ;
+    bottom:37% ;
+    height:25% ;
+    width:31%
+}.wrap.shadow {
+    position:absolute;
+    bottom:10% ;
+    left:30% ;
+    background-image:-webkit-radial-gradient(closest-side, rgba(0, 0, 0, .35) 0, rgba(0, 0, 0, .14) 35% , transparent 100% );
+    width:50% ;
+    height:5% ;-webkit-transition:.6s ease.6s
+}.wrap.shadow.inactive {
+    opacity:0;-webkit-transition:.05s cubic-bezier(.7, .3, 0, 1) 0s ! important
+}.wrap.shadow::before,
+.wrap.shadow:after {
+    content:"";
+    position:absolute;
+    bottom:0;
+    left:0;
+    height:100% ;
+    width:50% ;
+    background-image:-webkit-radial-gradient(closest-side, rgba(0, 0, 0, .38) 0, rgba(0, 0, 0, .185) 35% , transparent 100% );
+    background-image:radial-gradient(closest-side, rgba(0, 0, 0, .38) 0, rgba(0, 0, 0, .185) 35% , transparent 100% );-webkit-transition:.6s ease.6s
+}.wrap.shadow::before {
+    left:30%
+}.wrap.shadow::after {
+    left:-37% ;
+    height:60% ;
+    bottom:20% ;
+    background-image:-webkit-radial-gradient(closest-side, rgba(0, 0, 0, .1) 0, transparent 100% )
+}.wrap.shard-wrap:nth-child(1).shard,
+.wrap.shard-wrap:nth-child(2).shard,
+.wrap.shard-wrap:nth-child(3).shard,
+.wrap.shard-wrap:nth-child(4).shard,
+.wrap.shard-wrap:nth-child(5).shard,
+.wrap.shard-wrap:nth-child(6).shard,
+.wrap.shard-wrap:nth-child(7).shard,
+.wrap.shard-wrap:nth-child(8).shard,
+.wrap.shard-wrap:nth-child(9).shard {-webkit-transition:1s ease.05s
+}.wrap.shard-wrap:nth-child(10).shard,
+.wrap.shard-wrap:nth-child(11).shard,
+.wrap.shard-wrap:nth-child(12).shard,
+.wrap.shard-wrap:nth-child(13).shard,
+.wrap.shard-wrap:nth-child(14).shard,
+.wrap.shard-wrap:nth-child(15).shard,
+.wrap.shard-wrap:nth-child(16).shard,
+.wrap.shard-wrap:nth-child(17).shard,
+.wrap.shard-wrap:nth-child(18).shard,
+.wrap.shard-wrap:nth-child(19).shard,
+.wrap.shard-wrap:nth-child(20).shard {-webkit-transition:1s ease .1s
+}.wrap.shard-wrap:nth-child(21).shard,
+.wrap.shard-wrap:nth-child(22).shard,
+.wrap.shard-wrap:nth-child(23).shard,
+.wrap.shard-wrap:nth-child(24).shard,
+.wrap.shard-wrap:nth-child(25).shard,
+.wrap.shard-wrap:nth-child(26).shard,
+.wrap.shard-wrap:nth-child(27).shard,
+.wrap.shard-wrap:nth-child(28).shard,
+.wrap.shard-wrap:nth-child(29).shard,
+.wrap.shard-wrap:nth-child(30).shard {-webkit-transition:1s ease .15s
+}.shimmer.level-one.wrap.shard::before {
+    content:"";
+    width:100% ;
+    height:100% ;
+    background:rgba(255, 255, 255, 0);
+    top:0;
+    left:0;
+    position:absolute
+}.animal-animations-on.shimmer.level-one.wrap.shard-wrap:nth-child(1).shard::before {-webkit-animation:shimmer .8s .07s forwards
+}.animal-animations-on.shimmer.level-one.wrap.shard-wrap:nth-child(2).shard::before {-webkit-animation:shimmer .8s .12s forwards
+}.animal-animations-on.shimmer.level-one.wrap.shard-wrap:nth-child(3).shard::before {-webkit-animation:shimmer.8s.17s forwards
+}.animal-animations-on.shimmer.level-one.wrap.shard-wrap:nth-child(4).shard::before {-webkit-animation:shimmer.8s.22s forwards
+}.animal-animations-on.shimmer.level-one.wrap.shard-wrap:nth-child(5).shard::before {-webkit-animation:shimmer.8s.27s forwards
+}.animal-animations-on.shimmer.level-one.wrap.shard-wrap:nth-child(6).shard::before {-webkit-animation:shimmer.8s.32s forwards
+}.animal-animations-on.shimmer.level-one.wrap.shard-wrap:nth-child(7).shard::before {-webkit-animation:shimmer.8s.37s forwards
+}.animal-animations-on.shimmer.level-one.wrap.shard-wrap:nth-child(8).shard::before {-webkit-animation:shimmer.8s.42s forwards
+}.animal-animations-on.shimmer.level-one.wrap.shard-wrap:nth-child(9).shard::before {-webkit-animation:shimmer.8s.47s forwards
+}.animal-animations-on.shimmer.level-one.wrap.shard-wrap:nth-child(10).shard::before {-webkit-animation:shimmer.8s.52s forwards
+}.animal-animations-on.shimmer.level-one.wrap.shard-wrap:nth-child(11).shard::before {-webkit-animation:shimmer.8s.57s forwards
+}.animal-animations-on.shimmer.level-one.wrap.shard-wrap:nth-child(12).shard::before {-webkit-animation:shimmer.8s.62s forwards
+}.animal-animations-on.shimmer.level-one.wrap.shard-wrap:nth-child(13).shard::before {-webkit-animation:shimmer.8s.67s forwards
+}.animal-animations-on.shimmer.level-one.wrap.shard-wrap:nth-child(14).shard::before {-webkit-animation:shimmer.8s.72s forwards
+}.animal-animations-on.shimmer.level-one.wrap.shard-wrap:nth-child(15).shard::before {-webkit-animation:shimmer.8s.77s forwards
+}.animal-animations-on.shimmer.level-one.wrap.shard-wrap:nth-child(16).shard::before {-webkit-animation:shimmer.8s.82s forwards
+}.animal-animations-on.shimmer.level-one.wrap.shard-wrap:nth-child(17).shard::before {-webkit-animation:shimmer.8s.87s forwards
+}.animal-animations-on.shimmer.level-one.wrap.shard-wrap:nth-child(18).shard::before {-webkit-animation:shimmer.8s.92s forwards
+}.animal-animations-on.shimmer.level-one.wrap.shard-wrap:nth-child(19).shard::before {-webkit-animation:shimmer.8s.97s forwards
+}.animal-animations-on.shimmer.level-one.wrap.shard-wrap:nth-child(20).shard::before {-webkit-animation:shimmer.8s 1.02s forwards
+}.animal-animations-on.shimmer.level-one.wrap.shard-wrap:nth-child(21).shard::before {-webkit-animation:shimmer.8s 1.07s forwards
+}.animal-animations-on.shimmer.level-one.wrap.shard-wrap:nth-child(22).shard::before {-webkit-animation:shimmer.8s 1.12s forwards
+}.animal-animations-on.shimmer.level-one.wrap.shard-wrap:nth-child(23).shard::before {-webkit-animation:shimmer.8s 1.17s forwards
+}.animal-animations-on.shimmer.level-one.wrap.shard-wrap:nth-child(24).shard::before {-webkit-animation:shimmer.8s 1.22s forwards
+}.animal-animations-on.shimmer.level-one.wrap.shard-wrap:nth-child(25).shard::before {-webkit-animation:shimmer.8s 1.27s forwards
+}.animal-animations-on.shimmer.level-one.wrap.shard-wrap:nth-child(26).shard::before {-webkit-animation:shimmer.8s 1.32s forwards
+}.animal-animations-on.shimmer.level-one.wrap.shard-wrap:nth-child(27).shard::before {-webkit-animation:shimmer.8s 1.37s forwards
+}.animal-animations-on.shimmer.level-one.wrap.shard-wrap:nth-child(28).shard::before {-webkit-animation:shimmer.8s 1.42s forwards
+}.animal-animations-on.shimmer.level-one.wrap.shard-wrap:nth-child(29).shard::before {-webkit-animation:shimmer.8s 1.47s forwards
+}.animal-animations-on.shimmer.level-one.wrap.shard-wrap:nth-child(30).shard::before {-webkit-animation:shimmer.8s 1.52s forwards
+}@-webkit-keyframes shimmer {
+    0% ,
+    100% {
+        background-color:rgba(255, 255, 255, 0)
+    }
+    35% {
+        background-color:rgba(255, 255, 255, .1)
+    }
+}.animal-animations-on.state-three.changePanel,
+.changePanel {
+    position:absolute;
+    width:100% ;
+    height:100% ;
+    background:rgba(255, 255, 255, .5);-webkit-clip-path:polygon(42.2% 95.5% , 49.5% 91.5% , 50.8% 92.6% );-webkit-transition:1s;
+    z-index:4
+}.animal-animations-on.state-three.changePanelinner,
+.changePanelinner {
+    width:100% ;
+    height:100% ;
+    background:rgba(255, 255, 255, .5);
+    position:absolute;-webkit-transition:1s;
+    z-index:4;-webkit-clip-path:polygon(47% 92.2% , 49.5% 91.5% , 58% 95.6% )
+}.answerList,
+.title {
+    position:absolute;
+    left:0;-webkit-transition:.4s
+}.animal-animations-on.state-four.changePanel,
+.animal-animations-on.state-two.changePanel {-webkit-clip-path:polygon(42.2% 97.5% , 49.5% 93.5% , 50.8% 94.6% )
+}.animal-animations-on.state-four.changePanelinner,
+.animal-animations-on.state-two.changePanelinner {-webkit-clip-path:polygon(47% 94.2% , 49.5% 93.5% , 58% 97.6% )
+}.title.triangle {
+    width:100% ;
+    height:100% ;
+    position:absolute;
+    z-index:4;
+    background:red
+}.title.triangle:nth-child(1) {-webkit-clip-path:polygon(0 0, 37% 32% , 0 100% )
+}.title.triangle:nth-child(2) {-webkit-clip-path:polygon(37% 32% , 87% 75% , 0 100% )
+}.title.triangle:nth-child(3) {-webkit-clip-path:polygon(73.8% 41.9% , 87% 75% , 46.4% 40.6% )
+}.title.triangle:nth-child(4) {-webkit-clip-path:polygon(91.7% 49.1% , 99% 52.6% , 96% 59% )
+}.title.triangle:nth-child(5) {-webkit-clip-path:polygon(53% 20% , 54% 28% , 50% 26% )
+}.title.triangle:nth-child(6) {-webkit-clip-path:polygon(65% 27% , 66% 37% , 58% 30% )
+}.title.triangle:nth-child(7) {-webkit-clip-path:polygon(81% 10% , 85% 23% , 73% 24% )
+}.title {
+    z-index:4
+}.titleNum {
+    background-image:url(http://mat1.gtimg.com/v/h5/we15/images/title_bg.png);background-size:50px 150px;background-repeat:no-repeat;width:50px;height:30px;overflow:hidden;position:absolute;z-index:5;right:35%;top:30%}.titleNum.num1{background-position:0 0}.titleNum.num2{background-position:0 -30px}.titleNum.num3{background-position:0 -60px}.titleNum.num4{background-position:0 -90px}.titleNum.num5{background-position:0 -120px}.answerList{width:100%;height:100%;top:75%;z-index:3;padding:10px 0}.answerList h1{padding:15px;font-size:20px;line-height:26px;position:absolute;z-index:4;font-weight:700}.answerList:after,.answerList:before{height:56px;content:"";position:absolute;width:100%;left:0;top:-32px}.answerList:before{-webkit-clip-path:polygon(0 0,80% 40%,0 100%)}.answerList:after{-webkit-clip-path:polygon(0 100%,100% 20%,100% 100%)}.answerList ul{padding-top:300px}.answerList li{height:40px;line-height:40px;padding:0}.answerList li span.abcd{float:left;font-size:1.5em;width:14%;text-align:center}.answerList li p{width:70%;white-space:nowrap;overflow:hidden;float:left}.answerList li span.check{float:right;width:24px;border:2px solid rgba(255,255,255,.5);height:24px;margin:6px 20px 0 0}.answerList li.current .check{position:relative;overflow:visible}.answerList li.current .checked:after,.answerList li.current .checked:before{width:46px;height:46px;content:"";position:absolute;top:-10px;left:-10px}.songBox,.songBox span{width:23px;height:23px}.answerList li.current .checked:before{-webkit-clip-path:polygon(29.3% 41%,45.7% 47.8%,48.9% 59.8%);background:#70AE5B;-webkit-transform:scale(1.5)}.answerList li.current .checked:after{-webkit-clip-path:polygon(41.3% 52.2%,48.9% 59.8%,79.3% 25%);background:#80C269;-webkit-transform:scale(1.5)}@media only screen and (min-width:321px)and (max-width:375px){.answerList li{padding:8px 0}}@media only screen and (min-width:376px)and (max-width:414px){.answerList li{padding:10px 0}}.songBox{position:fixed;left:20px;top:20px;z-index:99}
+    .countDay,.loadingAni{z-index:999;text-align:center;-webkit-transition:.4s}
+    .countDay,.countDay .inner,.loadingAni,.songBox span{position:absolute}
+    .songBox span{background:url(http://mat1.gtimg.com/rushidao/zt/emituofo/music.png)no-repeat;background-size:53px 23px}
+    .songBox .open{background-position:0 0;display:none}
+    .songBox .close{background-position:100% 0}
+    .countDay{width:100%;height:100%;left:0;top:0;background:rgba(0,0,0,.7)}
+    .countDay .inner{width:200px;height:200px;left:50%;top:50%;margin:-100px 0 0 -100px}.countDay .inner h4{font-size:1.2em}
+    .loadingAni{width:100%;height:100%;left:0;top:0;background:rgba(245,245,245,1)}
+    .loadingAni .inner{width:200px;height:84px;position:absolute;left:50%;top:50%;margin:-62px 0 0 -100px}
+    .loadingAni .inner h4{font-size:1.2em;line-height:20px;margin-top:20px;color:#666}
+
+    .loadingAni .inner .fengche{width:64px;height:64px;position:relative;margin:0 auto;-webkit-animation:anirotate 2s linear infinite;-webkit-animation-origin:50% 50%}
+    .fengche .box{width:0;height:0;font-size:0;line-height:0;position:absolute}
+    .fengche .box1{border-color:transparent transparent transparent #FFBF52;border-style:solid dashed dashed solid;border-width:32px 0 0 32px;left:0;top:0}
+    .fengche .box2{border-color:#F16464 transparent transparent;border-style:solid solid dashed dashed;border-width:32px 32px 0 0;right:0;top:0}
+    .fengche .box3{border-color:transparent #56ADE5 transparent transparent;border-style:dashed solid solid dashed;border-width:0 32px 32px 0;right:0;bottom:0}
+    .fengche .box4{border-color:transparent transparent #AEBF5E;border-style:dashed dashed solid solid;border-width:0 0 32px 32px;left:0;bottom:0}
+    @-webkit-keyframes anirotate{
+        0%{-webkit-transform:rotate(0)}
+        100%{-webkit-transform:rotate(360deg)}
+    }
+    .loadingPgae{width:100%;height:100%;background:url(http://mat1.gtimg.com/v/h5/we15/images/loadingBg.jpg)left bottom no-repeat #deec9d;background-size:100% auto;position:absolute;left:0;top:0;z-index:12}
+
+    .animalfigure .ufo{width:55px;height:30px;background:url(http://mat1.gtimg.com/v/h5/we15/images/icon1.png) no-repeat;background-size:100%;position:absolute;left:33.3%;top:12px;z-index:10;-webkit-transform:translate3d(-200px,-20px,0)}
+    .loadingPgae .startBtn,.loadingPgae h1{position:absolute;height:44px;line-height:44px;text-align:center;font-size:23px;color:#fff}
+
+    .loadingPgae.animate .animalfigure .ufo{-webkit-transition:1s; -moz-transition:1s; transition:1s; -webkit-transform: translate3d(0,0,0) }
+
+    .loadingPgae h1{width:100%;left:0;bottom:22%;-webkit-transform:translate3d(-500px,0,0)}.loadingPgae.animate h1{-webkit-transition:.7s;-moz-transition:.7s;transition:.7s;-webkit-transform:translate3d(0,0,0)}.loadingPgae .startBtn{width:166px;background:url(http://mat1.gtimg.com/v/h5/we15/images/button.png)no-repeat;background-size:100%;left:50%;margin-left:-83px;bottom:9%;-webkit-transform:translate3d(1500px,0,0)}.loadingPgae.animate .startBtn{-webkit-transition:.7s;-moz-transition:.7s;transition:.7s;-webkit-transform:translate3d(0,0,0)}.loadingPgae .shard-wrap{-webkit-transition:.3s;-moz-transition:.3s;transition:.3s;width:100%;height:100%;position:absolute;left:0;top:0;z-index:2}.loadingPgae .animalfigure{width:100%;position:absolute;left:0;top:0}.lowPhone .animalfigure{background:url(http://mat1.gtimg.com/v/h5/we15/images/renwu.png)no-repeat;background-size:100%}.loadingPgae .shard-wrap .shard{position:absolute;width:100%;height:100%;-webkit-transition:1s cubic-bezier(.7,.3,0,1);-moz-transition:1s cubic-bezier(.7,.3,0,1);transition:1s cubic-bezier(.7,.3,0,1);-moz-clip-path:polygon(0 0,0 0,0 0);-webkit-clip-path:polygon(0 0,0 0,0 0);background-color:#deec9d}.loadingPgae .figure .shard-wrap .shard{-moz-clip-path:polygon(44.3% 10.8%,45.4% 9.8% ,43% 12.1%);-webkit-clip-path:polygon(44.3% 10.8%,45.4% 9.8% ,43% 12.1%);-webkit-transition:all .5s ease 1.6s;-moz-transition:all .5s ease 1.6s;transition:all .5s ease 1.6s}
+    .loadingPgae .light .shard-wrap1 .shard{
+        -webkit-clip-path:polygon(44.2% 10.5%,44.9% 9.1% ,45.8% 11% ,44.1% 12.1%);
+        -moz-clip-path:polygon(44.2% 10.5%,44.9% 9.1% ,45.8% 11% ,44.1% 12.1%);
+        clip-path:polygon(44.2% 10.5%,44.9% 9.1% ,45.8% 11% ,44.1% 12.1%);
+        background-color:blue;
+        -moz-transition:1s cubic-bezier(.3,.3,0,1);
+        transition:1s cubic-bezier(.3,.3,0,1);
+        -webkit-transition:all .5s ease 1s
+    }
+
+    .animate .light .shard-wrap1 .shard{
+        -webkit-clip-path:polygon(37.2% 10.5%,45.9% 9.1% ,90.8% 83.9% ,16.1% 84.1%);
+        -moz-clip-path:polygon(37.2% 10.5%,45.9% 9.1% ,90.8% 83.9% ,16.1% 84.1%);
+        clip-path:polygon(37.2% 10.5%,45.9% 9.1% ,90.8% 83.9% ,16.1% 84.1%);
+        background-color:#f00;
+        -webkit-transition:all 1s ease .9s;
+        -moz-transition:all 1s ease .9s
+    }
+    .animate .figure .shard-wrap1 .shard{
+        -webkit-clip-path:polygon(49.3% 31.8%,51.4% 29.8% ,53% 36.1%);
+        -moz-clip-path:polygon(49.3% 31.8%,51.4% 29.8% ,53% 36.1%);
+        clip-path:polygon(49.3% 31.8%,51.4% 29.8% ,53% 36.1%);
+        background-color:#fff;
+        -webkit-transition:all .5s ease 1.
+}
+        
+    .animate .figure .shard-wrap2 .shard{
+        -webkit-clip-path:polygon(51.4% 29.8%,57.9% 39.6%,48.7% 41%);
+        -moz-clip-path:polygon(51.4% 29.8%,57.9% 39.6%,48.7% 41%);
+        clip-path:polygon(51.4% 29.8%,57.9% 39.6%,48.7% 41%);
+        background-color:yellow;
+        -webkit-transition:all .5s ease 1.64s
+    }
+    .animate .figure .shard-wrap3 .shard{
+        -webkit-clip-path:polygon(51.4% 29.8%,58% 30.3%,57.3% 39.9%);
+        -moz-clip-path:polygon(51.4% 29.8%,58% 30.3%,57.3% 39.9%);
+        clip-path:polygon(51.4% 29.8%,58% 30.3%,57.3% 39.9%);
+        background-color:green;
+        -webkit-transition:all .5s ease 1.66s
+    }
+    .animate.state-one .figure .shard-wrap3 .shard{
+        background-color:#ce881a;
+        -webkit-transition:all .5s ease 0s
+    }
+    .animate .figure .shard-wrap4 .shard{-webkit-clip-path:polygon(58% 30.3%,59% 40.1%,54% 40.7%);-moz-clip-path:polygon(58% 30.3%,59% 40.1%,54% 40.7%);clip-path:polygon(58% 30.3%,59% 40.1%,54% 40.7%);background-color:#dea037;-webkit-transition:all .5s ease 1.68s}.animate.state-one .figure .shard-wrap4 .shard{background-color:#ce881a;-webkit-transition:all .5s ease 0s}.animate .figure .shard-wrap5 .shard{-webkit-clip-path:polygon(57% 37.3%,58.3% 39.1%,49.7% 40.5%);-moz-clip-path:polygon(57% 37.3%,58.3% 39.1%,49.7% 40.5%);clip-path:polygon(57% 37.3%,58.3% 39.1%,49.7% 40.5%);background-color:#ce881a;-webkit-transition:all .5s ease 1.7s}.animate.state-one .figure .shard-wrap5 .shard{background-color:#ce881a;-webkit-transition:all .5s ease 0s}.animate .figure .shard-wrap6 .shard{-webkit-clip-path:polygon(47.3% 40.9%,46.6% 54%,41.4% 51.7%);-moz-clip-path:polygon(47.3% 40.9%,46.6% 54%,41.4% 51.7%);clip-path:polygon(47.3% 40.9%,46.6% 54%,41.4% 51.7%);background-color:#f6b342;-webkit-transition:all .5s ease 1.7s}.animate .figure .shard-wrap7 .shard{-webkit-clip-path:polygon(46.6% 54%,41.4% 51.7%,35.4% 59.8%);-moz-clip-path:polygon(46.6% 54%,41.4% 51.7%,35.4% 59.8%);clip-path:polygon(46.6% 54%,41.4% 51.7%,35.4% 59.8%);background-color:#e6a433;-webkit-transition:all .5s ease 1.72s}.animate.state-one .figure .shard-wrap7 .shard{-webkit-clip-path:polygon(46.6% 54%,41.4% 51.7%,38.4% 55.8%);-moz-clip-path:polygon(46.6% 54%,41.4% 51.7%,38.4% 55.8%);clip-path:polygon(46.6% 54%,41.4% 51.7%,38.4% 55.8%);background-color:#ffbf52;-webkit-transition:all 1s ease 0s}.animate .figure .shard-wrap8 .shard{-webkit-clip-path:polygon(61% 39%,62.3% 63.7%,46.3% 63.8%);-moz-clip-path:polygon(61% 39%,62.3% 63.7%,46.3% 63.8%);clip-path:polygon(61% 39%,62.3% 63.7%,46.3% 63.8%);background-color:#f6b342;-webkit-transition:all .5s ease 1.74s}.animate.state-one .figure .shard-wrap8 .shard{background-color:#ce881a;-webkit-transition:all .5s ease 0s}.animate .figure .shard-wrap9 .shard{-webkit-clip-path:polygon(46.6% 41%,61% 38.8%,50.9% 63.1%);-moz-clip-path:polygon(46.6% 41%,61% 38.8%,50.9% 63.1%);clip-path:polygon(46.6% 41%,61% 38.8%,50.9% 63.1%);background-color:#ffbf52;-webkit-transition:all .5s ease 1.76s}.animate.state-one .figure .shard-wrap9 .shard{background-color:#fdc565;-webkit-transition:all .5s ease 0s}.animate .figure .shard-wrap10 .shard{-webkit-clip-path:polygon(46.6% 41.3%,51.9% 64% ,46.2% 63.8%);-moz-clip-path:polygon(46.6% 41.3%,51.9% 64% ,46.2% 63.8%);clip-path:polygon(46.6% 41.3%,51.9% 64% ,46.2% 63.8%);background-color:#e6a433;-webkit-transition:all .5s ease 1.78s}.animate .figure .shard-wrap11 .shard{-webkit-clip-path:polygon(60.9% 39%,66.3% 48.3%,61.7% 51%);-moz-clip-path:polygon(60.9% 39%,66.3% 48.3%,61.7% 51%);clip-path:polygon(60.9% 39%,66.3% 48.3%,61.7% 51%);background-color:#f7b244;-webkit-transition:all .5s ease 1.8s}.animate .figure .shard-wrap12 .shard{-webkit-clip-path:polygon(61% 39%,63% 47.3%,61.5% 51%);-moz-clip-path:polygon(61% 39%,63% 47.3%,61.5% 51%);clip-path:polygon(61% 39%,63% 47.3%,61.5% 51%);background-color:#ce881a;-webkit-transition:all .5s ease 1.8s}.animate .figure .shard-wrap13 .shard{-webkit-clip-path:polygon(66.1% 48.1%,71.9% 56.6%,61% 51%);-moz-clip-path:polygon(66.1% 48.1%,71.9% 56.6%,61% 51%);clip-path:polygon(66.1% 48.1%,71.9% 56.6%,61% 51%);background-color:#e6a433;-webkit-transition:all .5s ease 1.82s}.animate.state-one .figure .shard-wrap13 .shard{-webkit-clip-path:polygon(66.1% 48.1%,69.9% 61.6%,61% 51%);-moz-clip-path:polygon(66.1% 48.1%,69.9% 61.6%,61% 51%);clip-path:polygon(66.1% 48.1%,69.9% 61.6%,61% 51%);background-color:#e6a433;-webkit-transition:all .5s ease 0s}.animate .figure .shard-wrap14 .shard{-webkit-clip-path:polygon(46.1% 63.6%,53.9% 63.6%,50.9% 86.9%);-moz-clip-path:polygon(46.1% 63.6%,53.9.2% 63.6%,50.9% 86.9%);clip-path:polygon(46.1% 63.6%,53.9.2% 63.6%,50.9% 86.9%);background-color:#3a3a66;-webkit-transition:all .5s ease 1.84s}.animate .figure .shard-wrap15 .shard{-webkit-clip-path:polygon(62.1% 63.6%,59.4% 86.3%,52.4% 63.7%);-moz-clip-path:polygon(62.1% 63.6%,59.4% 86.3%,52.4% 63.7%);clip-path:polygon(62.1% 63.6%,59.4% 86.3%,52.4% 63.7%);background-color:#3a3a66;-webkit-transition:all .5s ease 1.86s}.animate .figure .shard-wrap16 .shard{-webkit-clip-path:polygon(46.3% 63.8%,62.2% 63.9%,53.2% 67.2%);-moz-clip-path:polygon(46.3% 63.8%,62.2% 63.9%,53.2% 67.2%);clip-path:polygon(46.3% 63.8%,62.2% 63.9%,53.2% 67.2%);background-color:#070c1a;-webkit-transition:all .5s ease 1.88s}.animate .figure .shard-wrap17 .shard{-webkit-clip-path:polygon(47.8% 71.2%,53% 79.2%,47.7% 79.2%);-moz-clip-path:polygon(47.8% 71.2%,53% 79.2%,47.7% 79.2%);clip-path:polygon(47.8% 71.2%,53% 79.2%,47.7% 79.2%);background-color:#53538b;-webkit-transition:all .5s ease 1.9s}.animate .figure .shard-wrap18 .shard{-webkit-clip-path:polygon(61% 71.1%,61.4% 79.2%,56.2% 79.3%);-moz-clip-path:polygon(61% 71.1%,61.4% 79.2%,56.2% 79.3%);clip-path:polygon(61% 71.1%,61.4% 79.2%,56.2% 79.3%);background-color:#53538b;-webkit-transition:all .5s ease 1.92s}.animate .figure .shard-wrap19 .shard{-webkit-clip-path:polygon(50.9% 85.2%,53% 90%,47.7% 90%);-moz-clip-path:polygon(50.9% 85.2%,53% 90%,47.7% 90%);clip-path:polygon(50.9% 85.2%,53% 90%,47.7% 90%);background-color:#070c1a;-webkit-transition:all .5s ease 1.94s}.animate .figure .shard-wrap20 .shard{-webkit-clip-path:polygon(59.4% 85.2%,61.6% 90%,56.2% 90%);-moz-clip-path:polygon(59.4% 85.2%,61.6% 90%,56.2% 90%);clip-path:polygon(59.4% 85.2%,61.6% 90%,56.2% 90%);background-color:#070c1a;-webkit-transition:all .5s ease 1.96s}.animate .figure .shard-wrap21 .shard{-webkit-clip-path:polygon(47.7% 79%,53% 79.2%,50.8% 88.9%);-moz-clip-path:polygon(47.7% 79.3%,53% 79.2%,50.8% 88.9%);clip-path:polygon(47.7% 79.3%,53% 79.2%,50.8% 88.9%);background-color:#070c1a;-webkit-transition:all .5s ease 1.98s}.animate .figure .shard-wrap22 .shard{-webkit-clip-path:polygon(56.2% 79.2%,61.4% 79%,59.4% 88.9%);-moz-clip-path:polygon(56.2% 79.2%,61.4% 79.2%,59.4% 88.9%);clip-path:polygon(56.2% 79.2%,61.4% 79.2%,59.4% 88.9%);background-color:#070c1a;-webkit-transition:all .5s ease 2s}
+    

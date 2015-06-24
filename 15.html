@@ -1,0 +1,299 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="dns-prefetch" href="//mat1.gtimg.com">
+<link rel="dns-prefetch" href="//trace.qq.com">
+<link rel="dns-prefetch" href="//pingfore.qq.com">
+<link rel="dns-prefetch" href="//btrace.qq.com">
+<link rel="dns-prefetch" href="//qos.report.qq.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" />
+<meta name="format-detection" content="telephone=no, email=no" />
+<meta name="x5-orientation" content="portrait" />
+<meta name="x5-fullscreen" content="true" />
+<meta name="x5-page-mode" content="app" />
+<title>荒野大冒险</title>
+
+<link rel="stylesheet" type="text/css" href="15.css" />
+
+<script src="load.js"></script>
+
+
+</head>
+<body>
+<div class="loadingAni">
+   <div class="inner">
+      <div class="fengche">
+          <b class="box box1"></b><b class="box box2"></b><b class="box box3"></b><b class="box box4"></b>
+      </div>
+      <h4>加载中...</h4>
+    </div> 
+</div>
+<div class="loadingPgae" style="display:none">
+  <h1>你被抛到了一个荒芜的山顶</h1>
+  <div class="startBtn">
+      <span>开始冒险</span>
+  </div>
+  <div class="animalfigure">
+    <div class="light animate">
+      <div class="ufo"></div>
+      <div class="shard-wrap shard-wrap1 ">
+      	<div class="shard"></div>
+      </div> 
+    </div>
+    <div class="figure animate">
+      <div class="shard-wrap shard-wrap1 "><div class="shard"></div></div>  
+      <div class="shard-wrap shard-wrap2"><div class="shard"></div></div>  
+      <div class="shard-wrap shard-wrap3"><div class="shard"></div></div>  
+      <div class="shard-wrap shard-wrap4"><div class="shard"></div></div>  
+      <div class="shard-wrap shard-wrap5"><div class="shard"></div></div>  
+      <div class="shard-wrap shard-wrap6"><div class="shard"></div></div>  
+      <div class="shard-wrap shard-wrap7"><div class="shard"></div></div>  
+      <div class="shard-wrap shard-wrap8"><div class="shard"></div></div>  
+      <div class="shard-wrap shard-wrap9"><div class="shard"></div></div>  
+      <div class="shard-wrap shard-wrap10"><div class="shard"></div></div>
+      <div class="shard-wrap shard-wrap11"><div class="shard"></div></div>
+      <div class="shard-wrap shard-wrap12"><div class="shard"></div></div>
+      <div class="shard-wrap shard-wrap13"><div class="shard"></div></div>
+      <div class="shard-wrap shard-wrap14"><div class="shard"></div></div>
+      <div class="shard-wrap shard-wrap15"><div class="shard"></div></div>
+      <div class="shard-wrap shard-wrap16"><div class="shard"></div></div>
+      <div class="shard-wrap shard-wrap17"><div class="shard"></div></div>
+      <div class="shard-wrap shard-wrap18"><div class="shard"></div></div>
+      <div class="shard-wrap shard-wrap19"><div class="shard"></div></div>
+      <div class="shard-wrap shard-wrap20"><div class="shard"></div></div>
+      <div class="shard-wrap shard-wrap21"><div class="shard"></div></div>
+      <div class="shard-wrap shard-wrap22"><div class="shard"></div></div>
+    </div>            
+  </div>
+</div>
+<script>
+// 首页loading
+var loadingTimer,
+    androidStyle;
+
+window.onload = function() {
+  /**
+   * [bosszone description]
+   * @param  {[type]} sclick      [点击行为]
+   * @param  {[type]} sUrl        [操作页面URL]
+   * @param  {[type]} sRef        [页面来源]
+   * @param  {[type]} sPagetime   [页面加载时间]
+   * @param  {[type]} sDeviceId   [设备类型]
+   * @param  {[type]} sPlatformId [平台类型]
+   * @param  {[type]} sQQId       [用户QQ]
+   * @param  {[type]} sOpenId     [微信OpenID]
+   * @return {[type]}             [description]
+   */
+  window.bosszone=function(sclick,sUrl,sRef,sPagetime,sDeviceId,sPlatformId,sQQId,sOpenId){
+      var g_btrace_BOSS = new Image(1,1);
+          g_btrace_BOSS.src = "http://btrace.qq.com/kvcollect?BossId=3003&Pwd=942243949&sclick="+sclick+"&sUrl="+sUrl+"&sRef="+sRef+"&sPagetime="+sPagetime+"&sDeviceId="+sDeviceId+"&sPlatformId="+sPlatformId+"&sQQId="+sQQId+"&sOpenId="+sOpenId+"&_dc=" + Math.random();
+  }
+   
+  var bossUrl = window.location.href || "",
+    bossRef = document.referrer || ""
+    bossloadtime = (new Date() - 0) /3600 ,
+    bossua = navigator.userAgent.toLowerCase() ,
+    bossplat =  "",
+    bossQQid = "",
+    bossOpenId = ""
+  if(/micromessenger/.test(bossua)){
+    bossplat = 'PlatA'
+  }else if(/mqq/.test(bossua)){
+    bossplat = 'PlatB'
+  }else if(/qqnews/.test(bossua)){
+    bossplat = 'PlatC'
+  }else if(/qqvideo/.test(bossua)){
+    bossplat = 'PlatD'
+  }else{
+    bossplat = 'PlatE'
+  }
+  function iOSversion(){
+      if (/iP(hone|od|ad)/.test(navigator.userAgent)) {
+          var v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/);
+          var n = parseInt(v[1], 10)+""+parseInt(v[2], 10);
+          if(n>71){if(window.screen.height>500){return true}else{return false}}else{return false}
+      }
+  }
+  var $loadingPgae = document.querySelector('.loadingPgae');
+    if(!iOSversion()) {
+      document.querySelector('html').className = 'lowPhone';
+        androidStyle = true
+  }
+
+  function showIndexPage(){
+    $(".loadingAni").hide()   
+    $(".loadingPgae").show()  
+
+    document.querySelector(".figure").style.height= document.body.clientWidth+"px";
+
+    setTimeout(function() {
+      $loadingPgae.className = 'loadingPgae animate'
+      setTimeout(function() {
+        loadingTimer = setInterval(function() {
+          $loadingPgae.className = 'loadingPgae animate state-one'
+          setTimeout(function() {
+            $loadingPgae.className = 'loadingPgae animate'
+          }, 1000)
+        }, 3000)      
+      }, 2000)
+    }, 0)
+  }
+
+    
+	// loader
+	var alias = {
+		'lib': 'http://mat1.gtimg.com/v/h5/webapp/flatTop/dest/lib.min_150615.js',
+		'main': 'http://mat1.gtimg.com/v/h5/webapp/flatTop/dest/main.min_150615a.js',
+		'style': 'http://mat1.gtimg.com/v/h5/webapp/flatTop/dest/style.min_150615.js'
+	}
+
+	var res = [
+  	'lib',
+  	'main',
+  	'style',
+  	'http://mat1.gtimg.com/v/h5/we15/images/bg01.jpg',
+  	'http://mat1.gtimg.com/v/h5/we15/images/bg02.jpg',
+  	'http://mat1.gtimg.com/v/h5/we15/images/bg03.jpg',
+  	'http://mat1.gtimg.com/v/h5/we15/images/bg04.jpg',
+  	'http://mat1.gtimg.com/v/h5/we15/images/bg05.jpg',
+  	'http://mat1.gtimg.com/v/h5/we15/images/bg06.jpg',
+  	'http://mat1.gtimg.com/v/h5/we15/images/bg07.jpg',
+  	'http://mat1.gtimg.com/v/h5/we15/images/boat.png',
+  	'http://mat1.gtimg.com/v/h5/we15/images/resultBg.jpg',
+  	'http://mat1.gtimg.com/v/h5/we15/images/imgBg.png',
+  	'http://mat1.gtimg.com/v/h5/we15/images/download.png',
+  	'http://mat1.gtimg.com/v/h5/we15/images/roundbg.png',
+  	'http://mat1.gtimg.com/v/h5/we15/images/footBg.png',
+  	'http://mat1.gtimg.com/v/h5/we15/images/anginBg.png',
+  	'http://mat1.gtimg.com/v/h5/we15/images/pkBg.png',
+  	'http://mat1.gtimg.com/v/h5/we15/images/title_bg.png',
+  	'http://mat1.gtimg.com/v/h5/we15/images/help.png',
+  	'http://mat1.gtimg.com/v/h5/we15/images/bear2.png'
+	]
+
+	if(androidStyle) {
+		res = [
+	  	'lib',
+	  	'main',
+	  	'style',
+	  	'http://mat1.gtimg.com/v/h5/we15/images/bg01.jpg',
+	  	'http://mat1.gtimg.com/v/h5/we15/images/bg02.jpg',
+	  	'http://mat1.gtimg.com/v/h5/we15/images/bg03.jpg',
+	  	'http://mat1.gtimg.com/v/h5/we15/images/bg04.jpg',
+	  	'http://mat1.gtimg.com/v/h5/we15/images/bg05.jpg',
+	  	'http://mat1.gtimg.com/v/h5/we15/images/bg06.jpg',
+	  	'http://mat1.gtimg.com/v/h5/we15/images/bg07.jpg',
+	  	'http://mat1.gtimg.com/v/h5/we15/images/boat.png',
+	  	'http://mat1.gtimg.com/v/h5/we15/images/resultBg.jpg',
+	  	'http://mat1.gtimg.com/v/h5/we15/images/imgBg.png',
+	  	'http://mat1.gtimg.com/v/h5/we15/images/download.png',
+	  	'http://mat1.gtimg.com/v/h5/we15/images/roundbg.png',
+	  	'http://mat1.gtimg.com/v/h5/we15/images/footBg.png',
+	  	'http://mat1.gtimg.com/v/h5/we15/images/anginBg.png',
+	  	'http://mat1.gtimg.com/v/h5/we15/images/pkBg.png',
+	  	'http://mat1.gtimg.com/v/h5/we15/images/title_bg.png',
+	  	'http://mat1.gtimg.com/v/h5/we15/images/help.png',
+	  	'http://mat1.gtimg.com/v/h5/we15/images/bear2.png',
+	  	'http://mat1.gtimg.com/v/h5/we15/images/select.png',//low Phone img star
+	  	'http://mat1.gtimg.com/v/h5/we15/images/swipeup.png',
+	  	'http://mat1.gtimg.com/v/h5/we15/images/title_bg_bear.png',
+	  	'http://mat1.gtimg.com/v/h5/we15/images/title_bg_valley.png',
+	  	'http://mat1.gtimg.com/v/h5/we15/images/title_bg_seed.png',
+	  	'http://mat1.gtimg.com/v/h5/we15/images/title_bg_snake.png',
+	  	'http://mat1.gtimg.com/v/h5/we15/images/title_bg_boating.png',
+	  	'http://mat1.gtimg.com/v/h5/we15/images/title_bg_thunder.png',
+	  	'http://mat1.gtimg.com/v/h5/we15/images/title_bg_chef.png'//low Phone img end
+		]
+	}
+
+	loader.config({
+	  debug: false,
+	  alias: alias,
+	  res: res,
+	  callback: function(resAppendNum, resNum) {
+
+	  	// 此时正在加载资源，不能用zepto
+        var percentum = parseInt((resAppendNum / resNum) * 100),
+                $start = document.querySelector('.startBtn span')
+        document.querySelector('.loadingAni h4').innerHTML = '能量加载' + percentum + '%'
+        // console.log( percentum );
+	  	if(percentum === 100) {
+
+	  		// 此时资源已经加载完毕，zepto可用
+            var $doc = $(document),
+                $body = $('body')
+
+                function getQueryString(name) {
+                var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i")
+                var r = window.location.search.substr(1).match(reg)
+                if(r !== null) {
+                    return unescape(r[2])
+                }
+                return null
+            }
+
+            var fromid = getQueryString('fromid')
+
+            $body.data('fromid', fromid || '')
+            
+            showIndexPage();
+
+	  		/*$.getJSON('/web/weChatGame/info', {fromid: fromid}, function(data) {
+					$start = $($start)
+
+					if(data.code !== 0) { // 未登录
+                        showIndexPage()//显示首页
+                        $start.on('tap', function() {
+                            var appid = 'wx383688642cc7abe0',
+                                redirect_uri = 'http://u15.video.qq.com/web/weChatGame/login',
+                                scope = 'snsapi_login',
+                                state = +new Date()
+
+                            location.href = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=' + encodeURIComponent(appid) + '&redirect_uri=' + encodeURIComponent(redirect_uri) + '&response_type=code&scope=' + encodeURIComponent(scope) + '&state=' + encodeURIComponent(state) + '#wechat_redirect'
+                        })
+                    } else { // 已经登录
+                        $body.data('userinfo', data.data.userinfo) // 保存用户信息
+                        bossOpenId = data.data.userinfo.openid || ""
+                        //重新排序后台排行数据
+                        var friendsArr =[],friendsArr2 =[],friendsArr3 = [],friendsArr4 = [];
+                        $.map(data.data.result.friends, function(i, val) {
+                            friendsArr.push(Number(i.day))
+                            friendsArr2.push(Number(i.day))
+                            friendsArr4.push(i);
+                        });
+                        friendsArr.sort(function(a,b){return a<b?1:-1})
+                        for(var i = 0; i<5;i++){
+                            for(var j = 0; j<5;j++){
+                                if(friendsArr[i]==friendsArr2[j]){
+                                    friendsArr[i]=Math.floor(1000 + 115 * Math.random())
+                                    friendsArr2[j]=Math.floor(2000 + 115 * Math.random())
+                                    friendsArr3.push(friendsArr4[j])
+                                }
+                            }    
+                        }
+                        $body.data('friends', friendsArr3) // 保存好友记录
+                        // data.data.result.day = -1;
+                        if(data.data.result.day < 0) { // 没玩过
+                            showIndexPage()//显示首页
+                            $start.on('tap', function() {
+                                $doc.trigger('startanswer')
+                                loadingTimer && clearTimeout(loadingTimer)
+                            })
+                        } else { // 玩过
+                            $(".loadingAni").hide()   
+                            $(".loadingPgae").show()  
+                            $doc.trigger('showresult', {day: data.data.result.day})
+                            loadingTimer && clearTimeout(loadingTimer)
+                        }
+                    }   			
+	  		})*/
+	  	}
+	  }
+	})
+}
+</script>
+</body>
+</html>
