@@ -1,5 +1,4 @@
 document.onclick = function () {
-	console.log('master:');
-	console.log(106);
-
+	console.log('new2');
+	console.log('104');
 }
