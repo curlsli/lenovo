@@ -1,3 +1,3 @@
 document.onclick = function () {
-	console.log(101);
+	console.log('new1:', 102);
 }
