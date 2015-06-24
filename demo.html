@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="refresh" content="0;url=http://www.qq.com" />
 	<title>Document</title>
 </head>
 <body>
@@ -24,6 +25,10 @@
 	var oBox = document.getElementById('box'),
 		oUl = document.getElementById('ul1'),
 		aLi = oUl.getElementsByTagName('li');
+
+	oBox.addEventListener('click', function(){
+		console.log(1);
+	}, false);
 
 	for( var i = 0; i < aLi.length; i++ ){
 		aLi[i].index = i;
